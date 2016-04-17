@@ -22,43 +22,7 @@ int main()
             {
                 for(int k = 0;k < 7;k++)
                 {       
-                    if(j == 0 && k == 0)
-                        arr[l][i][j][k] = 4;//開幕
-                    if(j == 0 && k == 1)
-                        arr[l][i][j][k] = 4;
-                    if(j == 0 && k == 5)
-                        arr[l][i][j][k] = 5;//混合                              
-                    if(j == 0 && k == 6)
-                        arr[l][i][j][k] = 5;
-                    if(j == 1 && k == 5)
-                        arr[l][i][j][k] = 5;
-                    if(j == 1 && k == 6)
-                        arr[l][i][j][k] = 5;                                    
-                    if(j == 2 && k == 4)
-                        arr[l][i][j][k] = 6;//活動
-                    if(j == 2 && k == 5)
-                        arr[l][i][j][k] = 6;
-                    if(j == 2 && k == 6)
-                        arr[l][i][j][k] = 6;                                    
-                    if(j == 3 && k == 4)
-                        arr[l][i][j][k] = 7;//亂教
-                    if(j == 3 && k == 5)
-                        arr[l][i][j][k] = 8;//桌遊
-                    if(j == 3 && k == 6)
-                        arr[l][i][j][k] = 8;                                    
-                    if(j == 4 && k == 1)
-                        arr[l][i][j][k] = 6;
-                    if(j == 4 && k == 2)
-                        arr[l][i][j][k] = 6;
-                    if(j == 4 && k == 3)
-                        arr[l][i][j][k] = 6;                                    
-                    if(j == 4 && k == 4)
-                        arr[l][i][j][k] = 7;
-                    if(j == 4 && k == 5)
-                        arr[l][i][j][k] = 9;//結業
-                    if(j == 4 && k == 6)
-                        arr[l][i][j][k] = 9;
-
+                    arr[l][i][j][k] = appoint_common_sub(j, k);
                     while(!arr[l][i][j][k])
                     {
                         srand( clock() );
