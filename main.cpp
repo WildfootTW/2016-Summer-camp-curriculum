@@ -3,6 +3,7 @@
 #include <ctime>
 #include <cstdlib>
 #include "print_subject.h"
+#include "appoint_commonsub.h"
 
 using namespace std;
 
@@ -153,18 +154,7 @@ int main()
                         }
 
                     }
-                    if(arr[l][i][j][k] == 4)
-                        cout << "開幕";
-                    if(arr[l][i][j][k] == 5)
-                        cout << "混合";
-                    if(arr[l][i][j][k] == 6)
-                        cout << "活動";
-                    if(arr[l][i][j][k] == 7)
-                        cout << "亂教";
-                    if(arr[l][i][j][k] == 8)
-                        cout << "桌遊";
-                    if(arr[l][i][j][k] == 9)
-                        cout << "結業";
+                    print_commonsub(arr[l][i][j][k]);
                     cout << " ";
                 }
                 cout << endl;

@@ -89,3 +89,19 @@ void print_sci(int l,int ptr)
             cout << "基因-三國英雄的傳承";
     }
 }
+
+void print_commonsub(int n)
+{
+        if(n == 4)
+            cout << "開幕";
+        if(n == 5)
+            cout << "混合";
+        if(n == 6)
+            cout << "活動";
+        if(n == 7)
+            cout << "亂教";
+        if(n == 8)
+            cout << "桌遊";
+        if(n == 9)
+            cout << "結業";
+}
