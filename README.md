@@ -1,10 +1,11 @@
 # 2016-Summer-camp-curriculum
 
 100份課表
-在
 ================================================================================
+在
+"================================================================================"
 和                           (生成成功的課表)
-OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
 中間的才是成功生成的課表
 
 如沒有"O"則為生成失敗
