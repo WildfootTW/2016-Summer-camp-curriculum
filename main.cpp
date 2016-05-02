@@ -10,7 +10,6 @@ using namespace std;
 
 int main()
 {
-    int TT = 0;
     restart:
     cout << endl << "==================================================================================" << endl;
     int arr[2][3][5][7] = {0};
@@ -127,10 +126,5 @@ int main()
             cout << endl;
         }
     }
-    cout << "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" ;
-    TT++;
-    if(TT <= 100)
-        goto restart;
-    cout << (double)clock() / CLOCKS_PER_SEC << " S";
     return 0;
 }
